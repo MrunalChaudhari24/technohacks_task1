@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            
+        }
+        header{
+            width: 100%;
+            height: 100vh;
+           background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9)), url('C:/Users/Admin/Desktop/Mrunal/COding/pictures/download.jpeg');
+            background-size: cover;
+           /* C:/Users/Admin/Desktop/Mrunal/COding/pictures/download.jpeg'*/
+           /*'C:/Users/Admin/Desktop/Mrunal/COding/pictures/blue-smooth-wall-textured-background_53876-106133.avif'*/
+            
+        }
+        nav{
+            width: 100%;
+            height: 100px;
+            
+            color:white;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-family: sans-serif;
+        }
+        .logo{
+            font-size: 2em;
+            letter-spacing: 2px;
+        }
+        .menu a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 20px;
+        }
+        .menu a:after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            border-bottom: 2px solid indianred;
+            transition-duration: 0.4s linear;
+        }
+        .menu a:hover:after{
+            width: 90%;
+        }
+        .regester a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 20px;
+            background: indianred;
+            border-radius: 8px;
+            transition: 0.4s;
+        }
+        .regester a:hover{
+            background: transparent;
+            border: 1px solid indianred;
+
+        }
+        .h-txt{
+            padding-top: 50%;
+            max-width: 650px;
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            color: white;
+
+        }
+        .h-text span{
+            letter-spacing: 5px;
+            font-size: 600%;
+            font-weight: 400;
+        }
+        .h-txt h1{
+            font-size: 50px;
+        }
+        .h-txt a{
+            text-decoration: none;
+            background: indianred;
+            color: white;
+            padding: 10px 20px;
+            letter-spacing: 5px;
+            transition: 0.4s;
+        }
+        .h-text a:hover{
+            background: transparent;
+            border: 1px solid indianred;
+        }
+        .about{
+            background-color:wheat;
+            color:black;
+            height: 500px;
+        
+            align-items: center;
+        }
+        .about h1{
+            text-align: center;
+            /*margin: 3%;*/
+            padding-top: 5%;
+            font-size: 60px;
+        }
+        .about h2{
+            text-align: center;
+            margin-top: 3%;
+            font-size: 35px;
+            font-weight: bold;
+        }
+        .about p{
+            text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            margin-top: 2%;
+            font-weight: bold;
+        }
+        .footer{
+            background-color:black;
+            color: white;
+            height: 600px;
+            /*margin-top:3%;*/
+            align-items: center;
+        }
+        .footer h1{
+            padding:5%;
+            text-align: center;
+            font-size: 50px;
+            
+        }
+        .footer span h2{
+            text-align: justify;
+            padding-left: 35%;
+        }
+        .img{
+            text-align: center;
+            padding-top: 6%;
+            height: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Travel-X
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">hill stations</a>
+                <a href="#">best offers</a>
+                <a href="#">our site</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="regester">
+                <a href="#">regester</a>
+            </div>
+        </nav>
+        <section class="h-txt">
+            <span>Enjoy</span>
+            <h1>International Travel Agency</h1><br>
+            <a href="#">Book Your Trip</a>
+        </section>
+
+    </header>
+    <div class="about">
+        <h1>About As</h1>
+        <h2>15 Years, we passionate about avhieving better results for our clients. </h2>
+        <p>Our Traval Agency was founded in june 2009.  we always try our best to service our customers. Our company was invented by shiv prasad yadhav. R.D. thakur is a CEO of this company. Bhagini Nivedita Gramin Vigyan Niketan, registered under the Indian Society’s Registration Act, 1860, in 2000 in Bahadarpur, Jalgaon as a non-political and non-religious organization. Computer classes for the villagers was the first step taken by the organization, and it was just the beginning. Gradually, villagers learnt about the existence of the organization and started to take interest. During this course of time, BNGVN realized the importance of ‘strengthening the economy’ of villagers as well as the hidden power in the group of women. So, BNGVN initiated and strengthened Self Help Groups (SHGs) in Bahadarpur, Shirsode & Mahalpur regions. Along with this work, BNGVN initiated their efforts to provide sanitation blocks for the villagers. </p>
+    </div>
+    <div class="footer">
+        <h1>Contact Us</h1> 
+        <span>
+            <h2>Phone no: 3332224445</h2>
+            <h2>Email ID: internationaltravel123@gmail.com</h2>
+        </span>
+        <form class="img">
+            <a href="#"><img src="C:\Users\Admin\Desktop\BYJU'S\CLASSES\PHYSICS\images.jpeg"></a>
+            
+        </form>
+        
+        
+
+    </div>
+</body>
+</html>
